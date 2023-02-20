@@ -3,27 +3,27 @@
 .uni-margin-wrap {
   padding: 8rpx;
 }
-.swiper {
-  border-radius: 8pux;
+.uni-margin-wrap .swiper {
+  border-radius: 8rpx;
   overflow: hidden;
 }
-.swiper-item {
+.uni-margin-wrap .swiper .swiper-item {
   width: 100%;
   height: 100%;
 }
-.uni-bg-red {
+.uni-margin-wrap .swiper .uni-bg-red {
   background: red;
 }
-.uni-bg-green {
+.uni-margin-wrap .swiper .uni-bg-green {
   background: green;
 }
-.uni-bg-blue {
+.uni-margin-wrap .swiper .uni-bg-blue {
   background: blue;
 }
 .fish-grid {
   margin-top: 12rpx;
 }
-.grid-box {
+.fish-grid .grid-box {
   display: flex;
   width: 100%;
   height: 100%;

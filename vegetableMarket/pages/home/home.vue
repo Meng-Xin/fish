@@ -71,33 +71,34 @@ import { reactive } from "vue";
 <style lang="scss">
 	.uni-margin-wrap{
 		padding: 8upx;
+		.swiper{
+			border-radius: 8upx;
+			overflow: hidden;
+			.swiper-item{
+				width: 100%;
+				height: 100%;
+			}
+			.uni-bg-red{
+				background: red;
+			}
+			.uni-bg-green{
+				background: green;	
+			}
+			.uni-bg-blue{
+				background: blue;	
+			}
+		}
 	}
-	.swiper{
-		border-radius: 8pux;
-		overflow: hidden;
-	}
-	.swiper-item{
-		width: 100%;
-		height: 100%;
-	}
-	.uni-bg-red{
-		background: red;
-	}
-	.uni-bg-green{
-		background: green;	
-	}
-	.uni-bg-blue{
-		background: blue;	
-	}
+	
 	.fish-grid{
 		margin-top: 12upx;
-	}
-	.grid-box{
-		display: flex;
-		width: 100%;
-		height: 100%;
-		align-items: center;
-		justify-content: center;
+		.grid-box{
+			display: flex;
+			width: 100%;
+			height: 100%;
+			align-items: center;
+			justify-content: center;
+		}
 	}
 	.fish-card{
 		display: flex;
